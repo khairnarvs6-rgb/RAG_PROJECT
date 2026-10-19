@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+venv/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Local vector database and caches
+chroma_db/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# User-provided documents
+data/documents/*
+!data/documents/.gitkeep
